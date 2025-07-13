@@ -1,0 +1,79 @@
+body {
+    background-color: #1a1a1a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.box {
+    height: 700px;
+    width: 450px;
+    box-sizing: border-box;
+    padding: 20px;
+    background: black;
+   
+
+}
+
+
+button { 
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    border-radius: 100%;
+    background: gold;
+    border-color: rgba(251, 152, 3, 0.947);
+    color: red;
+}
+
+#display {
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-end;
+    box-sizing: border-box;
+    width: 410px;
+    height: 50px;
+    background-color: rgba(91, 251, 198, 0.914);
+    padding: 50px;
+    margin-bottom: 20px;
+
+
+}
+
+.bigButton {
+    width: 100px;
+    height: 50px;
+    font-size: 30px;
+    border-radius: 10%;
+    background: gold;
+    border-color: rgba(251, 152, 3, 0.947);
+    color: red;
+    justify-content: end;
+
+
+}
+
+button:hover {
+    background-color: #ffd700;
+    transform: scale(1.05);
+}
+
+button:active {
+    transform: scale(0.90);
+    background-color: wheat;
+}
+
+.buttonGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    justify-items: center;
+}

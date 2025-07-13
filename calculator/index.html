@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Calculator</title>
+</head>
+<body>
+
+   <div class="buttonContainer">
+    <div class="box">
+     <div id="display"></div>
+    <div class="buttonGrid">
+    <button onclick="updateDisplay(1)">1</button>
+    <button onclick="updateDisplay(2)">2</button>
+    <button onclick="updateDisplay(3)">3</button>
+    <button onclick="updateDisplay(4)">4</button>
+    <button onclick="updateDisplay(5)">5</button>
+    <button onclick="updateDisplay(6)">6</button>
+    <button onclick="updateDisplay(7)">7</button>
+    <button onclick="updateDisplay(8)">8</button>
+    <button onclick="updateDisplay(9)">9</button>
+    <button onclick="updateDisplay(0)">0</button>
+    <button onclick="updateDisplay('.')">.</button>
+    <button class="operator" onclick="updateDisplay('+')">+</button>
+    <button class="operator" onclick="updateDisplay('-')">-</button>
+    <button class="operator" onclick="updateDisplay('*')">*</button>
+    <button class="operator" onclick="updateDisplay('/')">/</button>
+    <button id = "equalsBtn" class = "bigButton" onclick="runEquals()">=</button>
+    <button class="bigButton" onclick="clearDisplay()">Clear</button>
+    <button class="bigButton" onclick="backOne()">Back</button>
+
+    </div>
+    <p style="color:white; font-size: 40px; font-weight: 700; text-align: center; margin-top: 60px;">Ayxsh-S</p>
+    </div>
+  </div> 
+
+
+</body>
+</html>
